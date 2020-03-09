@@ -2,6 +2,35 @@
 https://tdse2020.gitlab.io/assessment-frequency-counter 
 
 
+
+
+ /* texttype;         hello;               world;
+i;  typetext[i];  lettercount(key);  lettercount(value)
+0; h;             h;                 1
+1; e;             e;                 1
+2; l;             l;                 3
+3; l;
+4; o;             o;                 2
+5; " ";           " ";               1
+6; w;             w;                 1
+7; o;
+8; r;             r;                 1
+9; l;
+10; d;            d;                 1*/
+
+1) I traced this to get the logic of what I needed to do 
+2) I enclosed the contents inside the function
+3) I created a words variable
+4) Created a wordsCounts constant
+5) Created a for loop for my words
+6) Appended it to the HTML
+7) also changed typedText from a constant to let, because of a syntax error on my web page.
+
+
+
+
+
+
 # Assessment: Frequency Counter
 In any written text, some letters will be used more often than others. Similarly, some words will be used more often than others. You are going to create a web page to count how frequently different letters and words are used in a block of text.
 
